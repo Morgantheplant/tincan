@@ -8,14 +8,3 @@ Thumbs.db
 # Node Files #
 ##############
 node_modules
-
-# Logs #
-########
-*.log
-
-# Project Files #
-#################
-dist
-.tmp
-app/lib
-.yo-rc.json

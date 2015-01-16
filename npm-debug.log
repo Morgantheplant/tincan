@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'famous',
+1 verbose cli   'maps' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json famoMap@0.0.1 No repository field.
+5 warn package.json famoMap@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'famous', null ]
+8 verbose cache add name=undefined spec="famous" args=["famous",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'famous',
+9 verbose parsed url   path: 'famous',
+9 verbose parsed url   href: 'famous' }
+10 verbose cache add [ 'maps', null ]
+11 verbose cache add name=undefined spec="maps" args=["maps",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'maps',
+12 verbose parsed url   path: 'maps',
+12 verbose parsed url   href: 'maps' }
+13 silly lockFile d923de9f-famous famous
+14 verbose lock famous C:\Users\Morgan\AppData\Roaming\npm-cache\d923de9f-famous.lock
+15 silly lockFile 7930e06c-maps maps
+16 verbose lock maps C:\Users\Morgan\AppData\Roaming\npm-cache\7930e06c-maps.lock
+17 silly lockFile d923de9f-famous famous
+18 silly lockFile d923de9f-famous famous
+19 silly lockFile 7930e06c-maps maps
+20 silly lockFile 7930e06c-maps maps
+21 verbose addNamed [ 'famous', '' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile aa4e2ef7-famous famous@
+24 verbose lock famous@ C:\Users\Morgan\AppData\Roaming\npm-cache\aa4e2ef7-famous.lock
+25 verbose addNamed [ 'maps', '' ]
+26 verbose addNamed [ null, '*' ]
+27 silly lockFile b0ba9144-maps maps@
+28 verbose lock maps@ C:\Users\Morgan\AppData\Roaming\npm-cache\b0ba9144-maps.lock
+29 silly addNameRange { name: 'famous', range: '*', hasData: false }
+30 silly addNameRange { name: 'maps', range: '*', hasData: false }
+31 verbose request where is /maps
+32 verbose request registry https://registry.npmjs.org/
+33 verbose request id 8df22f6edbfec5a3
+34 verbose url raw /maps
+35 verbose url resolving [ 'https://registry.npmjs.org/', './maps' ]
+36 verbose url resolved https://registry.npmjs.org/maps
+37 verbose request where is https://registry.npmjs.org/maps
+38 info trying registry request attempt 1 at 14:21:07
+39 http GET https://registry.npmjs.org/maps
+40 verbose request where is /famous
+41 verbose request registry https://registry.npmjs.org/
+42 verbose url raw /famous
+43 verbose url resolving [ 'https://registry.npmjs.org/', './famous' ]
+44 verbose url resolved https://registry.npmjs.org/famous
+45 verbose request where is https://registry.npmjs.org/famous
+46 info trying registry request attempt 1 at 14:21:07
+47 verbose etag "65W0D1RA3T9NWXQ1VWJL213QO"
+48 http GET https://registry.npmjs.org/famous
+49 http 404 https://registry.npmjs.org/maps
+50 silly registry.get cb [ 404,
+50 silly registry.get   { date: 'Tue, 06 Jan 2015 22:21:00 GMT',
+50 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 silly registry.get     etag: '"AWSQ7UA549V13LWAT6CAS6Z2B"',
+50 silly registry.get     'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=0',
+50 silly registry.get     'content-length': '438',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '0',
+50 silly registry.get     'x-served-by': 'cache-lax1428-LAX',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1420582859.877928,VS0,VE281',
+50 silly registry.get     vary: 'Accept',
+50 silly registry.get     'keep-alive': 'timeout=10, max=50',
+50 silly registry.get     connection: 'Keep-Alive' } ]
+51 silly lockFile b0ba9144-maps maps@
+52 silly lockFile b0ba9144-maps maps@
+53 http 200 https://registry.npmjs.org/famous
+54 silly registry.get cb [ 200,
+54 silly registry.get   { date: 'Tue, 06 Jan 2015 22:21:00 GMT',
+54 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 silly registry.get     etag: '"E0APZUKS6R2JD9T6G4L7TVO63"',
+54 silly registry.get     'content-type': 'application/json',
+54 silly registry.get     'cache-control': 'max-age=60',
+54 silly registry.get     'content-length': '81077',
+54 silly registry.get     'accept-ranges': 'bytes',
+54 silly registry.get     via: '1.1 varnish',
+54 silly registry.get     age: '0',
+54 silly registry.get     'x-served-by': 'cache-lax1435-LAX',
+54 silly registry.get     'x-cache': 'MISS',
+54 silly registry.get     'x-cache-hits': '0',
+54 silly registry.get     'x-timer': 'S1420582859.887244,VS0,VE447',
+54 silly registry.get     vary: 'Accept',
+54 silly registry.get     'keep-alive': 'timeout=10, max=50',
+54 silly registry.get     connection: 'Keep-Alive' } ]
+55 silly addNameRange number 2 { name: 'famous', range: '*', hasData: true }
+56 silly addNameRange versions [ 'famous',
+56 silly addNameRange   [ '11.0.0',
+56 silly addNameRange     '11.16.0',
+56 silly addNameRange     '11.17.0',
+56 silly addNameRange     '11.18.0',
+56 silly addNameRange     '0.1.1',
+56 silly addNameRange     '0.1.2',
+56 silly addNameRange     '0.2.0',
+56 silly addNameRange     '0.2.1',
+56 silly addNameRange     '0.2.2',
+56 silly addNameRange     '0.2.3-beta0',
+56 silly addNameRange     '0.3.0-alpha.0',
+56 silly addNameRange     '0.3.0-alpha.1',
+56 silly addNameRange     '0.3.0-rc',
+56 silly addNameRange     '0.3.0',
+56 silly addNameRange     '0.3.1',
+56 silly addNameRange     '0.3.2',
+56 silly addNameRange     '0.3.3',
+56 silly addNameRange     '0.3.4' ] ]
+57 verbose addNamed [ 'famous', '0.3.4' ]
+58 verbose addNamed [ '0.3.4', '0.3.4' ]
+59 silly lockFile 9059cf32-famous-0-3-4 famous@0.3.4
+60 verbose lock famous@0.3.4 C:\Users\Morgan\AppData\Roaming\npm-cache\9059cf32-famous-0-3-4.lock
+61 silly lockFile 9059cf32-famous-0-3-4 famous@0.3.4
+62 silly lockFile 9059cf32-famous-0-3-4 famous@0.3.4
+63 silly lockFile aa4e2ef7-famous famous@
+64 silly lockFile aa4e2ef7-famous famous@
+65 error 404 Not Found
+65 error 404
+65 error 404 'maps' is not in the npm registry.
+65 error 404 You should bug the author to publish it
+65 error 404 It was specified as a dependency of 'famoMap'
+65 error 404
+65 error 404 Note that you can also install from a
+65 error 404 tarball, folder, or http url, or git url.
+66 error System Windows_NT 6.2.9200
+67 error command "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "famous" "maps"
+68 error cwd c:\Users\Morgan\desktop\tbyb\slide\slideshow\final
+69 error node -v v0.10.32
+70 error npm -v 1.4.28
+71 error code E404
+72 verbose exit [ 1, true ]

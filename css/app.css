@@ -1,0 +1,50 @@
+html {
+    background: #404040;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'AvenirNext-Medium';
+}
+
+.ballImage {
+background: url('../img/morgan.jpg') no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border-radius:17px;  
+height: 30px; 
+width: 30px;
+margin-top: 3px;
+margin-left:3px;
+border: 2px solid maroon;
+}
+
+#sideNavThumb {
+height: 85px;
+margin-left: 5px;
+border-top-right-radius: 1em;
+margin-top: 4px;
+}
+
+button {
+color: rgb(23, 145, 171);
+margin-top: 5px;
+background-color: rgb(2, 16, 25);
+border-color: rgb(255, 240, 242);
+border: 1px solid black;
+width: 88px;
+}
+
+ul {
+list-style-type: none;
+margin-left: 0px;
+padding-left: 4px;
+margin-top: 0px;
+}
